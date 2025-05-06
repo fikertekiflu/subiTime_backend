@@ -16,5 +16,4 @@ router.get('/', getAllArticles);
 router.get('/:id', getArticleById);
 router.put('/:id', upload.single('featuredImage'), updateArticle);
 router.delete('/:id', deleteArticle);
-
 module.exports = router;
